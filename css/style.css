@@ -24,6 +24,18 @@ header {
     justify-content: space-between;
 }
 
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 .main-container {
     width: 100%;
     max-width: 1440px;
