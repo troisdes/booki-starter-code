@@ -18,6 +18,12 @@ body {
     justify-content: center;
 }
 
+header {
+    display: flex;
+    flex-direction: raw;
+    justify-content: space-between;
+}
+
 .main-container {
     width: 100%;
     max-width: 1440px;
