@@ -30,7 +30,7 @@ nav {
     justify-content: space-between;
 }
 
-ul {
+.horizontal-list {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
