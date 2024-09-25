@@ -20,7 +20,7 @@ body {
 
 header {
     display: flex;
-    flex-direction: raw;
+    flex-direction: row;
     justify-content: space-between;
 }
 
