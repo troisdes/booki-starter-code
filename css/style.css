@@ -40,11 +40,13 @@ nav {
 
 .button-hébergements,
 .button-activités {
+    
 }
 
 .button-hébergements:hover,
 .button-activités:hover {
   color: #0065fc;
+  border-top: 2px solid #0065fc;
 }
 
 .main-container {
