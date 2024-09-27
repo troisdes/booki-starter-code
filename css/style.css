@@ -41,6 +41,7 @@ nav {
 .button-hébergements,
 .button-activités {
   color: #0065fc;
+  border: #0065fc solid 2px;
 }
 
 .button-hébergements:hover,
