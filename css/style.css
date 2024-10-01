@@ -1,6 +1,9 @@
 /****** General ***********/
 * {
   font-family: "Raleway", sans-serif;
+  box-sizing: border-box;
+  /* margin: 0; */
+  /* padding: 0; */
 }
 
 :root {
@@ -22,6 +25,10 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+.logo-booki {
+  margin: 30px 50px;
 }
 
 nav {
