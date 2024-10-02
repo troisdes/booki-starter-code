@@ -1,6 +1,9 @@
 /****** General ***********/
 * {
   font-family: "Raleway", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 :root {
@@ -21,7 +24,19 @@ body {
 header {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-between
+
+}
+
+.logo-container {
+  width: 161.09px;
+  height: 79px;
+  margin: 50px 0;
+}
+
+.logo-booki {
+  max-width: 100px;
+  max-height: 50px;
 }
 
 nav {
@@ -33,14 +48,13 @@ nav {
 .horizontal-list {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   list-style-type: none;
   gap: 68px;
 }
 
 .button-hébergements,
 .button-activités {
-    
+    padding: 16px 0px;
 }
 
 .button-hébergements:hover,
