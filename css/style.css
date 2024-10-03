@@ -93,6 +93,15 @@ fieldset {
   align-items: center;
 }
 
+.filter-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin: auto;
+  gap: 35px;
+}
+
 .search-input {
   width: 195px;
   height: 49px;
