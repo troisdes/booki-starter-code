@@ -98,7 +98,8 @@ fieldset {
   height: 49px;
 }
 
-.search-input, .btn-recherche {
+.search-input,
+.btn-recherche {
   border: none;
   text-align: center;
   font-size: 1.15rem;
@@ -115,7 +116,6 @@ fieldset {
 .btn-recherche {
   background-color: #0065fc;
   border-radius: 0 15px 15px 0;
-  margin: 14px 16px;
   text-align: center;
   color: white;
 }
