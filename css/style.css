@@ -83,7 +83,7 @@ a {
 }
 
 fieldset {
-  border: none
+  border: none;
 }
 
 .search-bar {
@@ -106,12 +106,6 @@ fieldset {
   padding: 15px 18px;
 }
 
-.search-input {
-  width: 195px;
-  height: 49px;
-  color: black;
-}
-
 .fond-lieu i,
 .search-input,
 .btn-recherche,
@@ -120,6 +114,12 @@ fieldset {
   text-align: center;
   font-size: 1.2rem;
   font-weight: bold;
+}
+
+.search-input {
+  width: 195px;
+  height: 49px;
+  color: black;
 }
 
 .btn-recherche {
@@ -150,7 +150,7 @@ fieldset {
   gap: 15px;
 }
 
-.filter-list button {
+.filter-list .btn-filter {
   background-color: white;
   border: none;
   outline: 2px solid #d9d9d9;
@@ -162,6 +162,24 @@ fieldset {
   /* align-items: center; */
   /* gap: 15px; */
   /* align-self: center; */
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.info i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border: 1px solid #d9d9d9;
+  border-radius: 50%;
+  font-size: 12px;
+  line-height: normal;
 }
 
 .section-title {
