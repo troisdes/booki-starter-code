@@ -24,7 +24,11 @@
     <div class="main-container">
       <header>
         <div class="logo-container">
-          <img src="images/logo/Booki.png" alt="logo-booki" class="logo-booki"/>
+          <img
+            src="images/logo/Booki.png"
+            alt="logo-booki"
+            class="logo-booki"
+          />
         </div>
         <nav>
           <ul class="horizontal-list">
@@ -39,35 +43,36 @@
             <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
             <p>En plein centre-ville ou en pleine nature</p>
           </div>
-          <div class="search-container">
-            <form action="" method="get">
-              <fieldset>
-                <div class="search-bar">
-                    <div class="fond-lieu">
-                      <label for="lieu"><i class="fa-solid fa-location-dot" aria-hidden="true"></i></label>
-                    </div>
-                    <input type="text" name="lieu" id="lieu" placeholder="Marseille, France" autofocus required class="search-input"/>
-                    <div class="fond-rechercher">
-                      <input type="submit" value="Rechercher" class="btn-recherche" />
-                    </div>
-                </div>
-              </fieldset>
-              <div class="filter-container">
-                <h3>Filtres</h3>
-                <div>
-                  <i class='fa-solid fa-money-bill-wave' aria-hidden="true"></i><strong>Économique</strong>
-                </div>
-                <div>
-                  <i class="fa-solid fa-person" aria-hidden="true"></i><strong>Familial</strong>
-                </div>                
-                <div>
-                  <i class="fa-solid fa-heart" aria-hidden="true"></i><strong>Romantique</strong>
-                </div>                
-                <div>
-                  <i class="fa-solid fa-fire" aria-hidden="true"></i><strong>Nos pépites</strong>
-                </div>
+          <form action="" method="get" class="search-container">
+            <div class="search-bar">
+              <div class="fond-lieu">
+                <label for="lieu"
+                  ><i class="fa-solid fa-location-dot" aria-hidden="true"></i
+                ></label>
               </div>
-          </div>
+              <input
+                type="text"
+                name="lieu"
+                id="lieu"
+                placeholder="Marseille, France"
+                autofocus
+                required
+                class="search-input"
+              />
+              <div class="fond-rechercher">
+                <input type="submit" value="Rechercher" class="btn-recherche" />
+              </div>
+            </div>
+            <div class="filter-container">
+              <h3>Filtres</h3>
+              <ul>
+                <li><i class="fa-solid fa-money-bill-wave"></i> Économique</li>
+                <li><i class="fa-solid fa-person"></i> Familial</li>
+                <li><i class="fa-solid fa-heart"></i> Romantique</li>
+                <li><i class="fa-solid fa-fire"></i> Nos pépites</li>
+              </ul>
+            </div>
+          </form>
         </section>
         <div class="hebergements-and-populaires">
           <section class="hebergements"></section>
