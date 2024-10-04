@@ -82,10 +82,6 @@ a {
   gap: 35px;
 }
 
-fieldset {
-  border: none;
-}
-
 .search-bar {
   display: flex;
   flex-direction: row;
@@ -125,6 +121,14 @@ input {
   color: black;
   padding: 15px 18px;
   font-size: 1.2rem;
+}
+
+.filter-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px
 }
 
 .section-title {
