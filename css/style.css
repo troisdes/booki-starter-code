@@ -93,14 +93,6 @@ fieldset {
   align-items: center;
 }
 
-.filter-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
-  margin: auto;
-  gap: 35px;
-}
 
 .search-input {
   width: 195px;
@@ -129,18 +121,14 @@ fieldset {
   color: white;
 }
 
-/* .fond-rechercher {
-  background-color: #0065fc;
-  width: 132px;
-  height: 49px;
-  border-radius: 0 15px 15px 0;
-} */
-
-/* .fond-rechercher h3 {
-  margin: 14px 16px;
-  text-align: center;
-  color: white;
-} */
+.filter-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin: auto;
+  gap: 35px;
+}
 
 .fond-lieu i,
 input {
