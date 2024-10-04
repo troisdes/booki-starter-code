@@ -82,6 +82,10 @@ a {
   gap: 35px;
 }
 
+fieldset {
+  border: none
+}
+
 .search-bar {
   border: #d9d9d9 solid 1px;
   border-radius: 15px;
@@ -110,7 +114,8 @@ a {
 
 .fond-lieu i,
 .search-input,
-.btn-recherche {
+.btn-recherche,
+.btn-filter {
   border: none;
   text-align: center;
   font-size: 1.2rem;
@@ -145,16 +150,18 @@ a {
   gap: 15px;
 }
 
-.filter-list li {
+.filter-list button {
+  background-color: white;
+  border: none;
   outline: 2px solid #d9d9d9;
   border-radius: 25px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: 15px;
   padding: 15px 19px 15px 19px;
-  align-self: center;
+  /* display: flex; */
+  /* flex-direction: row; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* gap: 15px; */
+  /* align-self: center; */
 }
 
 .section-title {
