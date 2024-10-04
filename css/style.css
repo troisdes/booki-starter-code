@@ -131,6 +131,15 @@ input {
   gap: 15px
 }
 
+.filter-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  list-style-type: none;
+}
+
 .section-title {
   margin: 0;
   font-size: 22px;
