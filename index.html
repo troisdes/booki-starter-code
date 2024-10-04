@@ -44,34 +44,62 @@
             <p>En plein centre-ville ou en pleine nature</p>
           </div>
           <form action="" method="get" class="search-container">
-            <div class="search-bar">
-              <div class="fond-lieu">
-                <label for="lieu"
-                  ><i class="fa-solid fa-location-dot" aria-hidden="true"></i
-                ></label>
+            <fieldset>
+              <div class="search-bar">
+                <div class="fond-lieu">
+                  <label for="lieu"
+                    ><i class="fa-solid fa-location-dot" aria-hidden="true"></i
+                  ></label>
+                </div>
+                <input
+                  type="text"
+                  name="lieu"
+                  id="lieu"
+                  placeholder="Marseille, France"
+                  autofocus
+                  required
+                  class="search-input"
+                />
+                <div class="fond-rechercher">
+                  <input
+                    type="submit"
+                    value="Rechercher"
+                    class="btn-recherche"
+                  />
+                </div>
               </div>
-              <input
-                type="text"
-                name="lieu"
-                id="lieu"
-                placeholder="Marseille, France"
-                autofocus
-                required
-                class="search-input"
-              />
-              <div class="fond-rechercher">
-                <input type="submit" value="Rechercher" class="btn-recherche" />
+              <div class="filter-container">
+                <h3>Filtres</h3>
+                <ul class="filter-list">
+                  <li class="btn-filter">
+                    <i class="fa-solid fa-money-bill-wave"></i> Économique
+                  </li>
+                  <li class="btn-filter">
+                    <i class="fa-solid fa-person"></i> Familial
+                  </li>
+                  <li class="btn-filter">
+                    <i class="fa-solid fa-heart"></i> Romantique
+                  </li>
+                  <li class="btn-filter">
+                    <i class="fa-solid fa-fire"></i> Nos pépites
+                  </li>
+                </ul>
+                <!-- <div class="filter-list">
+                  <button type="button" value="Économique" class="btn-filter">
+                    <i class="fa-solid fa-money-bill-wave"></i> Économique
+                  </button>
+                  <button type="button" value="Familial" class="btn-filter">
+                    <i class="fa-solid fa-person"></i> Familial
+                  </button>
+                  <button type="button" value="Romantique" class="btn-filter">
+                    <i class="fa-solid fa-heart"></i> Romantique
+                  </button>
+                  <button type="button" value="Nos pépites" class="btn-filter">
+                    <i class="fa-solid fa-fire"></i> Nos pépites
+                  </button>
+                </div> -->
               </div>
-            </div>
-            <div class="filter-container">
-              <h3>Filtres</h3>
-              <ul class="filter-list">
-                <li><i class="fa-solid fa-money-bill-wave"></i> Économique</li>
-                <li><i class="fa-solid fa-person"></i> Familial</li>
-                <li><i class="fa-solid fa-heart"></i> Romantique</li>
-                <li><i class="fa-solid fa-fire"></i> Nos pépites</li>
-              </ul>
-            </div>
+            </fieldset>
           </form>
         </section>
         <div class="hebergements-and-populaires">
