@@ -85,8 +85,20 @@ nav ul li:hover {
   align-items: flex-start;
 }
 
+.search-form {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 35px;
+}
+
 .search-ville {
   border: none;
+}
+
+.search-titre,
+.ville-bar,
+.filtres-bar {
+  padding-bottom: 35px;
 }
 
 .search-info {
@@ -96,7 +108,7 @@ nav ul li:hover {
   gap: 10px;
 }
 
-.circle-icon {
+.search-info .circle-icon {
   width: 24px;
   height: 24px;
   border-radius: 50%;
@@ -107,7 +119,11 @@ nav ul li:hover {
   font-size: smaller;
 }
 
-.circle-icon i {
+.search-info p {
+  font-size: 16px;
+}
+
+.search-info .circle-icon i {
   font-size: 12px; /* Make sure the icon fits inside the circle */
 }
 
