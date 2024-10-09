@@ -39,6 +39,78 @@
           </ul>
         </nav>
       </header>
+      <section class="search">
+        <form action="" method="GET">
+          <fieldset class="search-ville">
+            <legend class="search-titre">
+              <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+              <p>En plein centre-ville ou en pleine nature</p>
+            </legend>
+            <div class="ville-bar">
+              <label for="ville"
+                ><i class="fa-solid fa-location-dot" aria-hidden="true"></i
+              ></label>
+              <input
+                type="search"
+                name="ville"
+                id="ville"
+                placeholder="Marseille, France"
+                autofocus
+                required
+              />
+              <button>Rechercher</button>
+            </div>
+            <div class="filtres-bar">
+              <strong>Filtres</strong>
+              <label for="economie" class="filter-button">
+                <input
+                  type="radio"
+                  name="type"
+                  id="economie"
+                  value="economie"
+                  checked
+                />
+                <i class="fa-solid fa-money-bill-wave"></i
+                ><strong>Économie</strong>
+              </label>
+              <label for="familial" class="filter-button">
+                <input
+                  type="radio"
+                  name="type"
+                  id="familial"
+                  value="familial"
+                  checked
+                />
+                <i class="fa-solid fa-person"></i><strong>Familial</strong>
+              </label>
+              <label for="romantique" class="filter-button">
+                <input
+                  type="radio"
+                  name="type"
+                  id="romantique"
+                  value="romantique"
+                  checked
+                />
+                <i class="fa-solid fa-heart"></i><strong>Romantique</strong>
+              </label>
+              <label for="nos-pepites" class="filter-button">
+                <input
+                  type="radio"
+                  name="type"
+                  id="nos-pepites"
+                  value="nos-pepites"
+                  checked
+                />
+                <i class="fa-solid fa-fire"></i><strong>Nos pépites</strong>
+              </label>
+            </div>
+            <div class="search-info">
+              <i class="fa-solid fa-info"></i>
+              <p>plus de 500 logements sont disponible dans cette ville</p>
+            </div>
+          </fieldset>
+        </form>
+      </section>
       <main>
         <div class="hebergements-and-populaires">
           <section class="hebergements"></section>
