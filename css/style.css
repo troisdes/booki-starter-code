@@ -42,41 +42,73 @@ header {
 }
 
 .header-logo {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .header-logo .logo {
-    width: 60px;
-    height: auto;
+  width: 60px;
+  height: auto;
 }
 
 nav {
-    display: flex;
-    height: 35px;
+  display: flex;
+  height: 35px;
 }
 
 nav ul {
-    display: flex;
-    text-align: center;
-    align-content: center;
-    list-style: none;
-    margin: 0;
-    gap: 68px;
+  display: flex;
+  text-align: center;
+  align-content: center;
+  list-style: none;
+  margin: 0;
+  gap: 68px;
 }
 
 nav ul li {
-    display: flex;
-    padding: 16px 0 0 0;
+  display: flex;
+  padding: 16px 0 0 0;
 }
 
 nav ul li a {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 nav ul li:hover {
-    color: var(--main-color);
-    border-top: #0065fc 2px solid;
+  color: var(--main-color);
+  border-top: #0065fc 2px solid;
+}
+
+.search {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.search-ville {
+  border: none;
+}
+
+.search-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.circle-icon {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  outline: 1px solid #d9d9d9;
+  display: flex; /* Center content horizontally and vertically */
+  align-items: center;
+  justify-content: center;
+  font-size: smaller;
+}
+
+.circle-icon i {
+  font-size: 12px; /* Make sure the icon fits inside the circle */
 }
 
 .section-title {
