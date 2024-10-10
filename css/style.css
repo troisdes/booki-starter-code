@@ -151,6 +151,11 @@ nav ul li:hover {
   font-weight: bold;
 }
 
+.bouton-rechercher i {
+  color: #ffffff;
+  display: none;
+}
+
 .filtres-bar {
   display: flex;
   flex-direction: row;
@@ -348,7 +353,14 @@ nav ul li:hover {
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
-  .bouton-rechercher {
+  .bouton-rechercher .bouton-texte {
     display: none;
+  }
+
+  .bouton-rechercher .bouton-texte {
+    font-size: 13px;
+    margin-right: 5px;
+    display: flex;
+    color: #ffffff;
   }
 }
