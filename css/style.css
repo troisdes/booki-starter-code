@@ -279,13 +279,12 @@ nav ul li:hover {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 30px;
+  row-gap: 30px;
 }
 
-.hebergements-cards li {
-}
-
-.hebergements-cards .card {
-  margin-top: 33px;
+.hebergements-cards {
+  margin-bottom: 30px;
+  margin-top: 30px;
 }
 
 .hebergements-cards img {
