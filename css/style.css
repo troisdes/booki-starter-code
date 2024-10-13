@@ -418,6 +418,44 @@ nav ul li:hover {
   margin: 20px 19px;
 }
 
+/****** Footer ***********/
+
+footer {
+  background-color: var(--main-bg-color);
+  height: 163px;
+  width: 100%;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  padding: 20px;
+}
+
+.footer-a-propos,
+.footer-nos-hebergements,
+.footer-assistance {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-title {
+  padding-bottom: 15px;
+}
+
+.footer-list {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  list-style: none;
+}
+
+.footer-list li {
+  padding-bottom: 15px;
+}
+
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
