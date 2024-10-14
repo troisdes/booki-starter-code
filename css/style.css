@@ -422,15 +422,16 @@ nav ul li:hover {
 
 footer {
   background-color: var(--main-bg-color);
-  height: 163px;
-  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .footer-container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-content: center;
+  align-items: flex-start;
+  width: 100%;
   padding: 20px;
 }
 
@@ -439,6 +440,8 @@ footer {
 .footer-assistance {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  flex: 1 1 0;
 }
 
 .footer-title {
@@ -446,8 +449,6 @@ footer {
 }
 
 .footer-list {
-  display: flex;
-  flex-direction: column;
   text-align: left;
   list-style: none;
 }
