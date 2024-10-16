@@ -256,6 +256,12 @@ nav ul li:hover {
   filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
 }
 
+.card-no-border {
+    background-color: white;
+    border-radius: 20px;
+    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+  }
+
 .card img {
   object-fit: cover;
 }
@@ -407,6 +413,7 @@ nav ul li:hover {
 }
 
 /****** Activités ***********/
+
 .section-activites {
   display: flex;
   flex-direction: column;
@@ -422,36 +429,34 @@ nav ul li:hover {
 
 .activites-cards {
   display: flex;
-  flex-direction: row;
-  height: 440px;
-  width: 100%;
+  justify-content: space-between;
 }
 
 .card-activites {
-  display: flex;
-  flex-direction: row;
-  width: 300px;
+  width: calc(25% - 30px);
   margin-right: 30px;
+}
+
+.card-activites:last-child {
+  margin-right: 0;
 }
 
 .card-activites img {
   width: 100%;
   height: 380px;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
+  border-radius: 20px 20px 0 0;
   object-fit: cover;
 }
 
-.card-activites .card-content {
+.card-content {
   display: flex;
-  flex-direction: row;
   align-items: center;
-  width: 100%;
   height: 60px;
+  padding-left: 20px;
 }
 
-.card-activites .card-title {
-  margin-left: 20px;
+.card-activites:last-child {
+  margin-right: 0; /* Remove the margin from the last card */
 }
 
 /****** Footer ***********/
