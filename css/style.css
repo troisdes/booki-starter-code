@@ -4,6 +4,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  border: 1px dotted red;
 }
 
 :root {
@@ -36,7 +37,7 @@ a {
 header {
   display: flex;
   justify-content: space-between;
-  align-content: center;
+  /* align-content: center; */
   height: 79px;
   margin-bottom: 30px;
 }
@@ -47,7 +48,8 @@ header {
 }
 
 .header-logo .logo {
-  width: 60px;
+  /* width: 60px; */
+  width: 4rem;
   height: auto;
 }
 
@@ -58,20 +60,21 @@ nav {
 
 nav ul {
   display: flex;
-  text-align: center;
+  /* text-align: center;
   align-content: center;
+  margin: 0; */
   list-style: none;
-  margin: 0;
   gap: 68px;
 }
 
 nav ul li {
   display: flex;
-  padding: 16px 0 0 0;
+  align-items: flex-end;
 }
 
 nav ul li a {
   font-size: 16px;
+  /* padding: 16px 0 0 0; */
 }
 
 nav ul li:hover {
@@ -108,7 +111,6 @@ nav ul li:hover {
   justify-content: flex-start;
   align-items: center;
   height: 50px;
-  border-radius: 15px;
 }
 
 .location-icon {
@@ -120,6 +122,7 @@ nav ul li:hover {
   border-radius: 15px 0 0 15px;
   width: 50px;
   height: 100%;
+  font-size: 18px;
 }
 
 .location-icon .fa-location-dot {
@@ -258,15 +261,17 @@ nav ul li:hover {
 }
 
 .hebergements-and-populaires section {
+  display: flex;
+  flex-direction: column;
   background-color: var(--main-bg-color);
-  border-radius: 20px;
-  padding: 30px;
+  border-radius: 15px;
   box-sizing: border-box;
 }
 
 /****** Hebergements ***********/
 .hebergements {
   width: 65%;
+  padding: 30px;
 }
 .hebergements-title {
   display: flex;
@@ -278,8 +283,13 @@ nav ul li:hover {
   list-style: none;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 30px;
-  row-gap: 30px;
+  gap: 30px;
+}
+
+.hebergements-cards ul li {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .hebergements-cards {
@@ -319,18 +329,31 @@ nav ul li:hover {
 
 /****** Populaires ***********/
 .populaires {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
   width: 32%;
+  padding: 30px;
 }
 
 .populaires-title {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
 
+.populaires-cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 30px;
+  gap: 30px;
+}
+
 .populaires-cards .card {
   display: flex;
-  margin-top: 33px;
+  flex-direction: row;
 }
 
 .populaires-cards img {
