@@ -127,7 +127,6 @@ nav ul li:hover {
   align-content: center;
   align-items: center;
   height: 50px;
-  /* width: auto; */
 }
 
 .location-icon {
@@ -297,6 +296,7 @@ nav ul li:hover {
   background-color: var(--main-bg-color);
   border-radius: 15px;
   box-sizing: border-box;
+  gap: 30px;
 }
 
 /****** Hebergements ***********/
@@ -325,8 +325,8 @@ nav ul li:hover {
 }
 
 .hebergements-cards {
-  margin-bottom: 30px;
-  margin-top: 30px;
+  /* margin-bottom: 30px;
+  margin-top: 30px; */
 }
 
 .hebergements-cards img {
@@ -505,14 +505,26 @@ footer {
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 1024px;
+  }
+
+  header {
+    padding: 0;
+  }
+
   .filtres-bar {
     flex-direction: column;
     align-items: flex-start;
     gap: 20px;
+    height: 90px;
   }
 
   .search-info {
-    margin-top: 35px;
+    /* margin-top: 35px; */
   }
 
   .hebergements-and-populaires {
@@ -545,8 +557,14 @@ footer {
   .populaires-cards .card-subtitle {
     font-size: 13px;
   }
+
   .card-activites img {
     height: 200px;
+  }
+
+  .card-no-border .card-content {
+    height: 70px;
+    width: 100%;
   }
 
   .footer-container {
@@ -556,15 +574,200 @@ footer {
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
+  /****** Header ***********/
+
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0;
+    max-width: 767.98px;
+  }
+
+  main {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+
+  header {
+    display: flex;
+    flex-direction: column;
+    height: 115px;
+  }
+
+  .header-logo {
+    flex-direction: column;
+    padding: 30px;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: row;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 0;
+    height: 100%;
+    width: 100%;
+  }
+
+  nav ul li {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    border-bottom: #0065fc;
+  }
+
+  nav ul li:hover {
+    color: var(--main-color);
+    border-bottom: var(--main-color) 2px solid;
+    border-top: none;
+  }
+
+  nav ul li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  .search-titre {
+    flex-wrap: wrap;
+    width: 335px;
+  }
+
+  .location-icon .fa-location-dot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+  }
+
+  .ville-bar {
+    justify-content: space-between;
+  }
+
+  .ville-bar input {
+    width: 100%;
+  }
+
   .bouton-rechercher .bouton-texte {
     display: none;
   }
   .bouton-rechercher {
     border-radius: 15px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   }
 
   .bouton-rechercher i {
     display: flex;
     color: #ffffff;
+  }
+
+  .filtres-bar {
+    height: 160px;
+  }
+
+  .filter-button {
+    width: 100%;
+  }
+
+  .boutons-filtres {
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+
+  .economie,
+  .familial,
+  .romantique,
+  .pepites {
+    height: 50px;
+  }
+
+  .search-ville {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .search-info {
+  }
+
+  .populaires {
+    padding: 0;
+    margin: 0;
+    gap: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .populaires-title {
+    padding-top: 30px;
+  }
+
+  .populaires-title,
+  .populaires-cards {
+    background-color: var(--main-bg-color);
+  }
+
+  .populaires-cards {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    gap: 15px;
+  }
+
+  .populaires-cards .card {
+    width: 100%;
+    height: 100%;
+  }
+
+  .search {
+    border-radius: 0;
+  }
+
+  .hebergements-and-populaires {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .hebergements-and-populaires section {
+    gap: 0px;
+    background-color: transparent;
+    border-radius: 0;
+  }
+
+  .hebergements {
+    width: 100%;
+    padding: 0;
+  }
+
+  .hebergements-cards ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .card-activites img {
+    height: 141px;
+  }
+
+  .card-no-border .card-content {
+    height: 60px;
+    width: 100%;
   }
 }
