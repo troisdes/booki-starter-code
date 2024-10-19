@@ -4,7 +4,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  outline: 0.1px dotted red;
+  /* outline: 0.1px dotted red; */
 }
 
 :root {
@@ -734,7 +734,7 @@ footer {
     width: 100%;
     height: 100%;
     gap: 15px;
-    padding: 30px;
+    padding: 0 20px;
   }
 
   .populaires-cards .card {
@@ -791,6 +791,7 @@ footer {
   .activites-cards {
     display: flex;
     flex-direction: column;
+    gap: 15px;
   }
 
   .card-activites {
@@ -804,5 +805,9 @@ footer {
   .card-no-border .card-content {
     height: 60px;
     width: 100%;
+  }
+
+  .footer-container {
+    flex-direction: column;
   }
 }
