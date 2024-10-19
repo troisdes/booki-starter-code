@@ -26,6 +26,7 @@ body {
 .main-container {
   width: 100%;
   max-width: 1440px;
+  min-width: 320px;
   padding: 0 50px;
   box-sizing: border-box;
 }
@@ -523,10 +524,6 @@ footer {
     height: 90px;
   }
 
-  .search-info {
-    /* margin-top: 35px; */
-  }
-
   .hebergements-and-populaires {
     flex-direction: column;
   }
@@ -734,7 +731,7 @@ footer {
     width: 100%;
     height: 100%;
     gap: 15px;
-    padding: 0 20px;
+    padding: 0 20px 30px;
   }
 
   .populaires-cards .card {
@@ -783,9 +780,6 @@ footer {
     list-style: none;
     display: flex;
     flex-direction: column;
-  }
-
-  .section-activites {
   }
 
   .activites-cards {
