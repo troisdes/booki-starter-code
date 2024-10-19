@@ -128,6 +128,8 @@ nav ul li:hover {
   align-content: center;
   align-items: center;
   height: 50px;
+  width: 100%;
+  max-width: 377px;
 }
 
 .location-icon {
@@ -137,13 +139,16 @@ nav ul li:hover {
   justify-content: center;
   border: 1px solid #f2f2f2;
   border-radius: 15px 0 0 15px;
-  width: 50px;
-  height: 100%;
   font-size: 18px;
 }
 
 .location-icon .fa-location-dot {
   color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
 }
 
 .ville-bar input {
@@ -154,8 +159,11 @@ nav ul li:hover {
   border: none;
   border-top: 1px solid #f2f2f2;
   border-bottom: 1px solid #f2f2f2;
+  padding-left: 24px;
   height: 100%;
-  width: 25%;
+  width: auto;
+  min-width: 150px;
+  max-width: 100%;
 }
 
 .bouton-rechercher {
@@ -165,7 +173,9 @@ nav ul li:hover {
   border-radius: 0 15px 15px 0;
   font-size: 18px;
   padding: 14px 16px;
+  margin: 0;
   height: 100%;
+  cursor: pointer;
 }
 
 .bouton-rechercher i {
@@ -204,6 +214,7 @@ nav ul li:hover {
   font-size: 16px;
   padding: 14px 19px;
   height: 100%;
+  cursor: pointer;
 }
 
 .filter-icon {
@@ -517,6 +528,14 @@ footer {
     padding: 0;
   }
 
+  .ville-bar {
+  }
+
+  .ville-bar input {
+    text-align: left;
+    /* margin: 24px; */
+  }
+
   .filtres-bar {
     flex-direction: column;
     align-items: flex-start;
@@ -640,20 +659,13 @@ footer {
     width: 335px;
   }
 
-  .location-icon .fa-location-dot {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50px;
-    height: 50px;
-  }
-
   .ville-bar {
     justify-content: space-between;
   }
 
   .ville-bar input {
     width: 100%;
+    text-align: left;
   }
 
   .bouton-rechercher .bouton-texte {
