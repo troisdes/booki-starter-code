@@ -57,6 +57,6 @@ Pour cloner ce dépôt et exécuter le projet en local, suivez les étapes suiva
 
 ## Auteur
 
-Ce projet a été réalisé par **troisdes** dans le cadre de la formation **OpenClassrooms**.  
+Ce projet a été réalisé par **troisdes** dans le cadre de la formation **Développeur web** de **OpenClassrooms**.  
 Consultez le dépôt GitHub pour suivre l’évolution du projet :  
 [https://github.com/troisdes/booki-starter-code](https://github.com/troisdes/booki-starter-code)
