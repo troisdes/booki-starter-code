@@ -316,6 +316,7 @@ nav ul li:hover {
   width: 65%;
   padding: 30px;
 }
+
 .hebergements-title {
   display: flex;
   justify-content: space-between;
@@ -333,11 +334,6 @@ nav ul li:hover {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-}
-
-.hebergements-cards {
-  /* margin-bottom: 30px;
-  margin-top: 30px; */
 }
 
 .hebergements-cards img {
@@ -405,7 +401,7 @@ nav ul li:hover {
 .populaires-cards img {
   width: 33%;
   height: 136px;
-  border-top-left-radius: 20px;
+  >border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
 }
 
