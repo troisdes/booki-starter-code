@@ -105,20 +105,19 @@ nav ul li:hover {
   gap: 35px;
 }
 
-.search-titre {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  margin-bottom: 35px;
-  gap: 8px;
-}
-
 .search-ville {
   display: flex;
   flex-direction: column;
   border: none;
   gap: 35px;
+}
+
+.search-titre {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8px;
 }
 
 .ville-bar {
@@ -156,7 +155,7 @@ nav ul li:hover {
   font-weight: bold;
   text-align: center;
   border-radius: 0;
-  border: none;
+  border-style: none;
   border-top: 1px solid #f2f2f2;
   border-bottom: 1px solid #f2f2f2;
   height: 100%;
@@ -266,14 +265,12 @@ nav ul li:hover {
 }
 
 .card {
-  background-color: white;
-  border-radius: 20px;
   padding: 5px;
-  filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
 }
 
+.card,
 .card-no-border {
-  background-color: white;
+  background-color: #ffffff;
   border-radius: 20px;
   filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
 }
@@ -387,7 +384,6 @@ nav ul li:hover {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-top: 30px;
   gap: 30px;
   width: 100%;
   height: 100%;
@@ -401,7 +397,7 @@ nav ul li:hover {
 .populaires-cards img {
   width: 33%;
   height: 136px;
-  >border-top-left-radius: 20px;
+  border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
 }
 
