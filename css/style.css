@@ -66,14 +66,14 @@ nav {
   height: 35px;
 }
 
-nav ul {
+.nav-list {
   display: flex;
   flex-direction: row;
   list-style: none;
   gap: 68px;
 }
 
-nav ul li {
+.nav-list-element {
   display: flex;
   flex-direction: row;
   align-items: flex-end;
@@ -83,7 +83,7 @@ nav ul li {
   font-size: 16px;
 }
 
-nav ul li:hover {
+.nav-list-element:hover {
   color: var(--main-color);
   border-top: var(--main-color) 2px solid;
 }
@@ -612,7 +612,7 @@ footer {
     flex-direction: row;
   }
 
-  nav ul {
+  .nav-list {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -621,13 +621,13 @@ footer {
     width: 100%;
   }
 
-  nav ul li {
+  .nav-list-element {
     display: inline-block;
     text-align: center;
     width: 100%;
   }
 
-  nav ul li:hover {
+  .nav-list-element:hover {
     color: var(--main-color);
     border-bottom: var(--main-color) 2px solid;
     border-top: none;
