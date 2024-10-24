@@ -55,12 +55,10 @@ cd booki-starter-code
 
 ### Ouvrir le fichier `index.html` dans un navigateur
 
-Double-cliquez sur le fichier ou utilisez la commande :
+utilisez la commande :
 
 ```bash
-open index.html
-# ou
-start index.html
+index.html
 ```
 
 ## Auteur
