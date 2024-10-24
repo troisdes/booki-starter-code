@@ -6,7 +6,7 @@ Le projet BOOKI est un site web fictif visant à faciliter la recherche d'héber
 
 L'objectif principal est de développer un site web responsive, conforme aux standards du W3C et aux meilleures pratiques de développement, tout en respectant les spécifications fonctionnelles définies dans la note de synthèse fournie par l'équipe produit.
 
-**Lien vers les maquettes : [Maquettes Booki sur Figma](#)**
+**Lien vers les maquettes : [Maquettes Booki sur Figma](https://www.figma.com/design/r9YJyUkpVdrxzBBKGH7reY/Maquettes-Booki-(desktop%2C-mobile%2C-tablette)?node-id=3-0&node-type=canvas&t=BQu580Ud6Y4UWkYd-0)**
 
 ## Structure du projet
 
